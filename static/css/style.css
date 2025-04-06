@@ -12,7 +12,7 @@
     /* Alabaster */
     --highlight-color-light: #fffbf8;
     /* Quill Gray */
-    --dark-color: #222123;
+    --dark-color: #212529;
     /* raisen black */
 }
 
@@ -40,6 +40,7 @@ h3 {
     color: var(--highlight-color-light);
     border: 2px solid var(--highlight-color-light);
     border-radius: 0;
+    font-weight: 600;
 }
 
 .action-button:hover {
@@ -108,6 +109,37 @@ h3 {
     background: linear-gradient(9deg, rgb(8 8 8 / 97%), rgb(89 71 71 / 71%)), url("../images/hero.webp") no-repeat center/cover;
 }
 
+/* Footer */
+footer {
+    background-color: var(--dark-color);
+    color: var(--highlight-color-light);
+    padding: 2rem;
+}
+
+#footer .support-contact {
+    text-decoration: unset;
+    color: var(--highlight-color-light);
+    padding-left: .5rem;
+}
+
+#footer .social-media a {
+    color: var(--highlight-color-light);
+    font-size: large;
+    margin: 1rem;
+}
+
+#footer .social-media a:hover {
+    background-color: var(--primary-color);
+    font-size: medium;
+    padding: 0.2rem;
+}
+
+#footer .address-map{
+    width:100%; 
+    height: 450px;
+    border:0; 
+    filter: grayscale(100%) brightness(88%) contrast(120%);
+}
 
 
 /* Brekpoint */
@@ -137,6 +169,11 @@ h3 {
     /* homepage */
     #homepage-header .hero {
         background: linear-gradient(87deg, rgb(8 8 8 / 97%), rgb(125 114 114 / 43%)), url("../images/hero.webp") no-repeat center/cover;
+    }
+
+    /* footer */
+    footer {
+        padding: 4rem;
     }
 }
 
