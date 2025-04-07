@@ -34,8 +34,7 @@
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark position-fixed top-0 w-100"
-        data-bs-theme="dark" id="navbar">
+    <nav class="navbar navbar-expand-lg bg-dark position-fixed top-0 w-100" data-bs-theme="dark" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#" aria-label="Car Rental logo (load home page on click)">
                 <img src="{% static 'images/logo.png' %}" alt="Car Rental logo" width="75" height="55"
@@ -66,10 +65,12 @@
                 <div class="hero-container text-center">
                     <div class="hero-content animation-element">
                         <h1 class="display-2 fw-bolder animate__animated animate__lightSpeedInLeft">Car Rental</h1>
-                        <p class="lead animate__animated animate__lightSpeedInLeft">Experience the freedom of the road—on your terms.
+                        <p class="lead animate__animated animate__lightSpeedInLeft">Experience the freedom of the
+                            road—on your terms.
                             Explore our fleet, book online, and drive with confidence.
                             Car Rental: Choose, Cruise, Return – It’s that simple!</p>
-                        <a href="#cars-list" aria-label="go to car list" class="btn btn-lg action-button animate__bounceIn">Start
+                        <a href="#cars-list" aria-label="go to car list"
+                            class="btn btn-lg action-button animate__bounceIn">Start
                             Renting</a>
                     </div>
                 </div>
@@ -128,7 +129,7 @@
     <!-- link Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/1e3f59fece.js" crossorigin="anonymous"></script>
     <!-- Custom JS Code -->
-    <!-- <script src="assets/js/"></script> -->
+    <script src="{% static 'js/carousel.js' %}"></script>
 </body>
 
 </html>
