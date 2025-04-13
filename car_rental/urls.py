@@ -19,6 +19,6 @@ from django.urls import path, include
 from car import views as car_views
 
 urlpatterns = [
-    path('', car_views.index, name="home"),
+    path('', include("car.urls"), name="car-urls"),
     path('admin/', admin.site.urls),
 ]
